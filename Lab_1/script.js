@@ -22,4 +22,5 @@ toggleBtn.addEventListener('click', () => {
     // 3. Save to Web Storage
     localStorage.setItem('theme', theme);
     storageMsg.innerText = `Preference updated: ${theme} mode saved to API`;
+
 });
